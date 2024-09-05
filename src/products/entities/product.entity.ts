@@ -24,10 +24,10 @@ export class ProductEntity {
   };
 
   @Column({ nullable: true })
-  fullpriceincents: string;
+  fullPriceInCents: string;
 
   @Column({ nullable: true })
-  salepriceincents: string;
+  salePriceInCents: string;
 
   @Column({ nullable: true })
   rating: number;
@@ -36,5 +36,5 @@ export class ProductEntity {
   image: string;
 
   @Column({ default: true })
-  stockavailable: boolean;
+  stockAvailable: boolean;
 }
