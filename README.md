@@ -7,6 +7,13 @@ Esta é uma API para gerenciamento de produtos, utilizada em uma aplicação de 
 - **Listar produtos:** Endpoint que retorna todos os produtos disponíveis.
 - **Gerenciamento de produtos:** A API está preparada para futuras expansões como criação, atualização e remoção de produtos.
 
+## Tecnologias Utilizadas
+
+- NestJS: Framework Node.js para a construção da API.
+- TypeORM: ORM para gerenciar o banco de dados PostgreSQL.
+- Supabase + PostgreSQL: Banco de dados utilizado para armazenar os produtos.
+- Render: Hospedagem da API.
+
 ## Endpoints
 
 ### GET /products
@@ -53,8 +60,9 @@ Esta é uma API para gerenciamento de produtos, utilizada em uma aplicação de 
    ```
 2. Configure as variáveis de ambiente:
 
+```
 Crie um arquivo .env na raiz do projeto e adicione as variáveis de ambiente conforme arquivo de env.example
-
+```
 3. Execute o servidor de desenvolvimento:
 
    ```bash
