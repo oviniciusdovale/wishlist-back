@@ -60,9 +60,9 @@ Esta é uma API para gerenciamento de produtos, utilizada em uma aplicação de 
    ```
 2. Configure as variáveis de ambiente:
 
-```
-Crie um arquivo .env na raiz do projeto e adicione as variáveis de ambiente conforme arquivo de env.example
-```
+- Crie um arquivo .env na raiz do projeto e adicione as variáveis de ambiente conforme arquivo de env.example
+
+
 3. Execute o servidor de desenvolvimento:
 
    ```bash
